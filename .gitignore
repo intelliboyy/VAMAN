@@ -1,0 +1,28 @@
+# Local environments and vendored clones
+24_ENV/
+naari/
+dia/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local data and generated audio
+chroma_langchain_db/
+*.npy
+*.mp3
+*.wav
+output.mp3
+temp_audio.wav
+static/
+
+# Secrets and editor files
+.env
+.vscode/
+.idea/
